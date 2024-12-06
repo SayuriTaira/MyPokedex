@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+
+        <title>MyPokédex | Sayuri Taira</title>
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="images/icon.png">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <a href="index.html">
+                    <div class="logo-content">
+                        <img src="images/logo.png">
+                        <span>MyPokédex</span>
+                    </div>
+                </a>
+
+                <div class="social-media">
+                    <a href="https://www.instagram.com/sayuritaira/" target="_blank">
+                        <i class="fa-brands fa-instagram" style="color: #1c1c1c;"></i>
+                    </a>
+
+                    <a href="https://github.com/SayuriTaira" target="_blank">
+                        <i class="fa-brands fa-github" style="color: #1c1c1c;"></i>
+                    </a>
+
+                    <a href="https://twitter.com/sayuritaira" target="_blank">
+                        <i class="fa-brands fa-twitter" style="color: #1c1c1c;"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/sayuri-taira-73576529a/" target="_blank">
+                        <i class="fa-brands fa-linkedin" style="color: #1c1c1c;"></i>
+                    </a>
+                </div>
+            </header>
+
+            <div class="interative-content">
+                <section class="types-search">
+                    <div class="title">
+                        <h2>Select the type</h2>
+                    </div>
+
+                    <nav class="menu-types"></nav>
+                </section>
+
+                <section class="cards-container">
+                    <div class="header">
+                        <div class="number-of-pokemon">
+                            <img src="images/pokeball3.png">
+                            <span class="pokemon-numbers"></span>
+                        </div>
+
+                        <div class="title">
+                            <h1>Select a Pokémon</h1>
+                        </div>
+
+                        <div class="search">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                            <input type="text" class="pokemon-search hidden" placeholder="Search a Pokémon">
+                        </div>
+                    </div>
+
+                    <div class="cards-content"></div>
+
+                    <div class="buttons">
+                        <button class="back-button">Anterior</button>
+                        <button class="next-button">Próximo</button>
+                    </div>
+                </section>
+            </div>
+
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="pokemon-image"></div>
+                    <div class="pokemon-details">
+                        <span>Name</span>
+                        <span>Type: </span>
+                        <span>Height: </span>
+                        <span>Weight: </span>
+                        <span>Abilities: </span>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <span>© Desenvolvido por Sayuri Taira</span>
+            </footer>
+        </div>
+
+        <script src="https://kit.fontawesome.com/2aa299e265.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
